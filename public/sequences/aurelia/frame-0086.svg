@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960" width="960" height="960">
+    <defs>
+      <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#FCFAF5" stop-opacity="1" />
+        <stop offset="60%" stop-color="#F5F1E8" stop-opacity="1" />
+        <stop offset="100%" stop-color="#ECE5D8" stop-opacity="1" />
+      </radialGradient>
+      
+      <radialGradient id="gemLight" cx="68.2%" cy="22.0%" r="65%">
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+        <stop offset="25%" stop-color="#D8CBD8" stop-opacity="0.8" />
+        <stop offset="55%" stop-color="#A85F72" stop-opacity="0.65" />
+        <stop offset="85%" stop-color="#30202D" stop-opacity="0.9" />
+        <stop offset="100%" stop-color="#180C16" stop-opacity="0.98" />
+      </radialGradient>
+
+      <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="hsl(43, 60.327785988992915%, 69.9208830918224%)" />
+        <stop offset="35%" stop-color="#FFF4D0" />
+        <stop offset="55%" stop-color="hsl(38, 65%, 52%)" />
+        <stop offset="85%" stop-color="hsl(30, 60%, 32%)" />
+        <stop offset="100%" stop-color="hsl(43, 60.327785988992915%, 69.9208830918224%)" />
+      </linearGradient>
+
+      <filter id="bloom" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+      
+      <filter id="sparkleBlur">
+        <feGaussianBlur stdDeviation="3" />
+      </filter>
+    </defs>
+
+    <!-- Canvas Background -->
+    <rect width="960" height="960" fill="url(#bgGlow)" />
+    
+    <!-- Soft Vignette & Editorial Ambient Aura -->
+    <circle cx="480" cy="480" r="380" fill="#E7D7C1" opacity="0.25" filter="url(#bloom)" />
+    
+    <!-- Fine Technical Measurement Rings -->
+    <g opacity="0.35">
+      <circle cx="480" cy="480" r="320" fill="none" stroke="#A85F72" stroke-width="0.75" stroke-dasharray="4 8" />
+      <circle cx="480" cy="480" r="280" fill="none" stroke="#756B73" stroke-width="0.5" />
+      <line x1="480" y1="120" x2="480" y2="150" stroke="#30202D" stroke-width="1" />
+      <line x1="480" y1="810" x2="480" y2="840" stroke="#30202D" stroke-width="1" />
+      <line x1="120" y1="480" x2="150" y2="480" stroke="#30202D" stroke-width="1" />
+      <line x1="810" y1="480" x2="840" y2="480" stroke="#30202D" stroke-width="1" />
+      <text x="495" y="145" font-family="monospace" font-size="10" fill="#756B73" letter-spacing="2">ROT: 258°</text>
+      <text x="495" y="835" font-family="monospace" font-size="10" fill="#756B73" letter-spacing="2">CARAT: 4.82ct VVS1</text>
+    </g>
+
+    <!-- Ring Shadow -->
+    <ellipse cx="480" cy="655.4630387452328" rx="267.2437051658161" ry="21.61932994524341" fill="#30202D" opacity="0.12" filter="url(#bloom)" />
+
+    <!-- 18K Gold Band (Behind Gem) -->
+    <ellipse cx="480" cy="513.7428920663909" rx="296.9374501842401" ry="61.769514129266895" fill="none" stroke="url(#goldGradient)" stroke-width="43.19090184498038" />
+    <ellipse cx="480" cy="513.7428920663909" rx="296.9374501842401" ry="61.769514129266895" fill="none" stroke="#FFFFFF" stroke-width="4.049147047966911" opacity="0.3376264927546721" />
+
+    <!-- Gemstone Setting / Prongs -->
+    <g transform="translate(480, 426.01137269377455) rotate(-14.67)">
+      <!-- Emerald-Cut Emerald / Tourmaline / Diamond Solitaire Body -->
+      <!-- Pavé under-gallery -->
+      <polygon points="-89.08123505527203,-113.3761173430735 89.08123505527203,-113.3761173430735 111.35154381909004,0 89.08123505527203,113.3761173430735 -89.08123505527203,113.3761173430735 -111.35154381909004,0" fill="url(#gemLight)" stroke="#FFF4D0" stroke-width="1.5" filter="url(#bloom)" opacity="0.95" />
+      
+      <!-- Precision Emerald Cut Facets -->
+      <polygon points="-66.81092629145402,-85.03208800730513 66.81092629145402,-85.03208800730513 77.20373704790244,0 66.81092629145402,85.03208800730513 -66.81092629145402,85.03208800730513 -77.20373704790244,0" fill="none" stroke="#FFFFFF" stroke-width="2.4294882287801465" opacity="0.9022542485937365" />
+      
+      <!-- Table Facet (Center Mirror) -->
+      <polygon points="-44.540617527636016,-56.68805867153675 44.540617527636016,-56.68805867153675 51.96405378224202,0 44.540617527636016,56.68805867153675 -44.540617527636016,56.68805867153675 -51.96405378224202,0" fill="#FFFFFF" opacity="0.27161862710939455" />
+      
+      <!-- Corner Step Cuts -->
+      <line x1="-89.08123505527203" y1="-113.3761173430735" x2="-44.540617527636016" y2="-56.68805867153675" stroke="#FFF" stroke-width="1.2" opacity="0.8" />
+      <line x1="89.08123505527203" y1="-113.3761173430735" x2="44.540617527636016" y2="-56.68805867153675" stroke="#FFF" stroke-width="1.2" opacity="0.8" />
+      <line x1="89.08123505527203" y1="113.3761173430735" x2="44.540617527636016" y2="56.68805867153675" stroke="#FFF" stroke-width="1.2" opacity="0.8" />
+      <line x1="-89.08123505527203" y1="113.3761173430735" x2="-44.540617527636016" y2="56.68805867153675" stroke="#FFF" stroke-width="1.2" opacity="0.8" />
+
+      <!-- Four Heavy 18K Gold Prongs -->
+      <circle cx="-81.65779880066603" cy="-103.92810756448405" r="9.448009778589459" fill="url(#goldGradient)" stroke="#FFF" stroke-width="0.75" />
+      <circle cx="81.65779880066603" cy="-103.92810756448405" r="9.448009778589459" fill="url(#goldGradient)" stroke="#FFF" stroke-width="0.75" />
+      <circle cx="81.65779880066603" cy="103.92810756448405" r="9.448009778589459" fill="url(#goldGradient)" stroke="#FFF" stroke-width="0.75" />
+      <circle cx="-81.65779880066603" cy="103.92810756448405" r="9.448009778589459" fill="url(#goldGradient)" stroke="#FFF" stroke-width="0.75" />
+    </g>
+
+    <!-- Front Ring Shank Highlight & Reflection -->
+    <ellipse cx="480" cy="513.7428920663909" rx="285.05995217687047" ry="52.50408700987686" fill="none" stroke="url(#goldGradient)" stroke-width="18.896019557178917" opacity="0.9" />
+
+    <!-- Optical Lens Flare & Caustic Sparkle on Peak Light -->
+    <g transform="translate(418.3486684500481, 447.9705257285792)" opacity="0.1193643785156576">
+      <ellipse rx="76.11419109961378" ry="4.049147047966911" fill="#FFFFFF" filter="url(#sparkleBlur)" />
+      <ellipse rx="4.049147047966911" ry="76.11419109961378" fill="#FFFFFF" filter="url(#sparkleBlur)" />
+      <circle r="10.797725461245095" fill="#C7E84F" opacity="0.9" />
+      <circle r="5.398862730622548" fill="#FFFFFF" />
+      <circle r="20.297117626563676" fill="#FFF" opacity="0.3" filter="url(#sparkleBlur)" />
+    </g>
+
+    <!-- Editorial Timecode & Lens Metadata Badge -->
+    <g transform="translate(60, 900)" opacity="0.6">
+      <text font-family="monospace" font-size="11" fill="#30202D" letter-spacing="3">FRAME // 0086 / 0120</text>
+      <text y="18" font-family="monospace" font-size="9" fill="#756B73" letter-spacing="2">AURELIA SOLITAIRE // RAW OPTICAL SCAN 8K</text>
+    </g>
+    <g transform="translate(820, 900)" opacity="0.6">
+      <text font-family="monospace" font-size="11" fill="#C7E84F" font-weight="bold" letter-spacing="2">● 60 FPS</text>
+      <text y="18" font-family="monospace" font-size="9" fill="#756B73" letter-spacing="1">REFRACTIVE INDEX: 2.417</text>
+    </g>
+  </svg>
