@@ -211,7 +211,7 @@ export const CampaignScene: React.FC = () => {
         {/* Layer 01: Giant Background Typography "JEWELLERY" */}
         <h2
           ref={bgTextRef}
-          className="absolute inset-0 flex items-center justify-center text-center font-display font-light text-[17vw] md:text-[16.5vw] lg:text-[15.5vw] tracking-[0.06em] text-[#E7D7C1]/35 leading-none pointer-events-none select-none will-change-transform z-10"
+          className="absolute inset-0 flex items-center justify-center text-center font-display font-light text-[17vw] md:text-[16.5vw] lg:text-[15.5vw] tracking-[0.06em] text-[#E7D7C1]/35 leading-none pointer-events-none select-none z-10"
         >
           JEWELLERY
         </h2>
@@ -222,7 +222,7 @@ export const CampaignScene: React.FC = () => {
             ref={modelRef}
             src="/campaign-model-cutout.png"
             alt="Maison Aurelia High Jewellery Campaign Model"
-            className="h-[520px] sm:h-[620px] md:h-[720px] lg:h-[780px] w-auto object-contain object-bottom drop-shadow-[0_25px_40px_rgba(0,0,0,0.6)] will-change-transform"
+            className="h-[520px] sm:h-[620px] md:h-[720px] lg:h-[780px] w-auto object-contain object-bottom drop-shadow-[0_25px_40px_rgba(0,0,0,0.6)] "
             onError={(e) => {
               (e.target as HTMLImageElement).src =
                 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=90';

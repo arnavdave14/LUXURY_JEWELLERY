@@ -85,18 +85,11 @@ body {
   pointer-events: none;
   z-index: 9999;
   opacity: 0.02;
-  transform: translateZ(0);
   background-image: radial-gradient(rgba(48, 32, 45, 0.15) 1px, transparent 0);
   background-size: 24px 24px;
 }
 
-/* GPU Hardware Acceleration Utilities */
-.gpu-layer {
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-  will-change: transform;
-}
+/* GPU Hardware Acceleration Utilities Removed */
 
 img {
   content-visibility: auto;

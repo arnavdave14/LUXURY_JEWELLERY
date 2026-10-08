@@ -261,14 +261,14 @@ export const FluidPortalScene: React.FC = () => {
         <h2
           ref={title1Ref}
           className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-display font-light text-aubergine tracking-tight"
-          style={{ willChange: 'transform, opacity' }}
+          
         >
           WEAR THE
         </h2>
         <h2
           ref={title2Ref}
           className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-display italic font-light text-aubergine/85 tracking-tight pl-8 sm:pl-24"
-          style={{ willChange: 'transform, opacity' }}
+          
         >
           UNEXPECTED.
         </h2>
@@ -283,7 +283,7 @@ export const FluidPortalScene: React.FC = () => {
           className="absolute top-0 left-[2vw] md:left-[6vw] w-[80vw] md:w-[42vw] z-10 cursor-pointer"
           onClick={() => openExhibition(chokerProduct)}
           data-cursor-product="CÉLESTE CHOKER"
-          style={{ willChange: 'transform' }}
+          
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-champagne/60 bg-porcelain group">
             <img
@@ -309,7 +309,7 @@ export const FluidPortalScene: React.FC = () => {
           className="absolute top-[8vh] right-[4vw] md:right-[8vw] w-[45vw] md:w-[22vw] z-20 cursor-pointer"
           onClick={() => openExhibition(chokerProduct)}
           data-cursor-product="320 PAVÉ DIAMONDS"
-          style={{ willChange: 'transform' }}
+          
         >
           <div className="p-2 bg-porcelain/95 rounded-xl shadow-2xl border border-champagne backdrop-blur-md group">
             <div className="w-full h-52 md:h-72 overflow-hidden rounded-lg relative">
@@ -335,7 +335,7 @@ export const FluidPortalScene: React.FC = () => {
         <div
           ref={layer3Ref}
           className="absolute bottom-[-6vh] right-[-2vw] md:right-[4vw] w-[50vw] md:w-[24vw] z-15"
-          style={{ willChange: 'transform' }}
+          
         >
           <div className="p-1.5 bg-pearl/90 rounded-lg shadow-xl border border-border/60">
             <img
@@ -353,7 +353,7 @@ export const FluidPortalScene: React.FC = () => {
         <div
           ref={layer4Ref}
           className="hidden lg:block absolute bottom-[14vh] left-[42vw] w-[18vw] z-25 p-4 bg-porcelain/90 backdrop-blur-md rounded-xl border border-champagne/80 shadow-lg text-xs font-mono"
-          style={{ willChange: 'transform' }}
+          
         >
           <div className="flex items-center gap-2 text-rose font-bold text-[9px] uppercase tracking-wider mb-1">
             <Sparkles size={11} /> ATELIER TOLERANCE

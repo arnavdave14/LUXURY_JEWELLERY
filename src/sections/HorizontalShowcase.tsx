@@ -77,7 +77,7 @@ export const HorizontalShowcase: React.FC = () => {
       <div className="relative w-full overflow-hidden py-2.5 border-y border-champagne/60 bg-porcelain-light/90 backdrop-blur-md z-20 shadow-sm">
         <div
           ref={titleTrackRef}
-          className="flex items-center gap-8 whitespace-nowrap will-change-transform px-8"
+          className="flex items-center gap-8 whitespace-nowrap px-8"
         >
           <div className="flex items-center gap-8 shrink-0">
             <span className="text-lg md:text-2xl lg:text-3xl font-display font-light text-aubergine tracking-wide">
@@ -132,7 +132,7 @@ export const HorizontalShowcase: React.FC = () => {
       <div className="relative w-full flex-1 flex items-center overflow-hidden my-auto py-2">
         <div
           ref={trackRef}
-          className="flex items-center gap-8 md:gap-14 px-8 md:px-14 will-change-transform z-10"
+          className="flex items-center gap-8 md:gap-14 px-8 md:px-14 z-10"
         >
           {/* Slide 01: Massive Hero Frame */}
           <div

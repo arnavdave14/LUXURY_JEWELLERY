@@ -217,7 +217,7 @@ export const ScrollImageSequence: React.FC<ScrollImageSequenceProps> = ({
     <div
       ref={containerRef}
       className={`relative w-full h-screen overflow-hidden bg-porcelain flex items-center justify-center ${className}`}
-      style={{ willChange: 'transform' }}
+      
     >
       {/* Background Soft Aura */}
       <div className="absolute inset-0 bg-radial-gradient pointer-events-none opacity-40" />

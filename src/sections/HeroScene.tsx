@@ -157,7 +157,7 @@ export const HeroScene: React.FC = () => {
       {/* Ambient Radial Lighting & Subtle Warm Gradient */}
       <div
         ref={glowRef}
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70vw] h-[70vw] max-w-[900px] max-h-[900px] bg-champagne/25 rounded-full blur-[120px] pointer-events-none will-change-transform"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70vw] h-[70vw] max-w-[900px] max-h-[900px] bg-champagne/25 rounded-full blur-[120px] pointer-events-none "
       />
 
       {/* Optical Axis Editorial Geometry */}
@@ -187,7 +187,7 @@ export const HeroScene: React.FC = () => {
         <h1
           ref={headline1Ref}
           className="text-[15vw] md:text-[14vw] leading-[0.82] font-display font-light text-aubergine/85 tracking-tight"
-          style={{ willChange: 'transform, opacity' }}
+          
         >
           OBJECTS
         </h1>
@@ -198,7 +198,7 @@ export const HeroScene: React.FC = () => {
         <h2
           ref={headline2Ref}
           className="text-[15vw] md:text-[14vw] leading-[0.82] font-display font-light text-aubergine/90 tracking-tight text-right"
-          style={{ willChange: 'transform, opacity' }}
+          
         >
           OF DESIRE.
         </h2>
@@ -208,7 +208,7 @@ export const HeroScene: React.FC = () => {
       <div
         ref={macroCardRef}
         onClick={() => openExhibition(signatureProduct)}
-        className="hidden md:block absolute top-[16vh] right-[6vw] lg:right-[8vw] w-[200px] z-25 pointer-events-auto cursor-pointer group will-change-transform"
+        className="hidden md:block absolute top-[16vh] right-[6vw] lg:right-[8vw] w-[200px] z-25 pointer-events-auto cursor-pointer group "
         data-cursor-product="AURELIA 4.82ct"
       >
         <div className="p-2 bg-white/80 backdrop-blur-md rounded-xl shadow-lg border border-champagne/60 transition-all duration-500 group-hover:shadow-xl group-hover:border-rose/50 group-hover:-translate-y-1">
@@ -239,7 +239,7 @@ export const HeroScene: React.FC = () => {
       <div
         ref={craftCardRef}
         onClick={() => scrollToTarget('#craft-section')}
-        className="hidden md:block absolute bottom-[14vh] left-[6vw] lg:left-[8vw] w-[190px] z-25 pointer-events-auto cursor-pointer group will-change-transform"
+        className="hidden md:block absolute bottom-[14vh] left-[6vw] lg:left-[8vw] w-[190px] z-25 pointer-events-auto cursor-pointer group "
       >
         <div className="p-2 bg-white/80 backdrop-blur-md rounded-xl shadow-md border border-champagne/60 transition-all duration-500 group-hover:shadow-xl group-hover:border-rose/50 group-hover:-translate-y-1">
           <div className="w-full h-24 overflow-hidden rounded-lg relative bg-porcelain-light">
@@ -266,7 +266,7 @@ export const HeroScene: React.FC = () => {
         ref={mainCardRef}
         onClick={() => openExhibition(signatureProduct)}
         data-cursor-product="AURELIA SOLITAIRE"
-        className="relative z-20 w-[86vw] md:w-[50vw] max-w-[620px] cursor-pointer group my-auto will-change-transform"
+        className="relative z-20 w-[86vw] md:w-[50vw] max-w-[620px] cursor-pointer group my-auto "
       >
         {/* Soft Golden Outer Aura */}
         <div className="absolute -inset-2 bg-gradient-to-tr from-champagne/40 via-rose/15 to-champagne/30 rounded-3xl blur-xl opacity-60 group-hover:opacity-90 group-hover:scale-102 transition-all duration-700 pointer-events-none" />

@@ -108,7 +108,7 @@ export const KineticEditorialMarquee: React.FC = () => {
 
       {/* Row 01: Massive Outlined & Filled Display Typography */}
       <div className="relative w-full overflow-hidden whitespace-nowrap mb-4 md:mb-6">
-        <div ref={row1Ref} className="inline-flex items-center gap-8 will-change-transform">
+        <div ref={row1Ref} className="inline-flex items-center gap-8 ">
           {[...marqueeRow1, ...marqueeRow1, ...marqueeRow1, ...marqueeRow1].map((text, i) => (
             <div key={i} className="inline-flex items-center gap-8 group cursor-default">
               <span
@@ -133,7 +133,7 @@ export const KineticEditorialMarquee: React.FC = () => {
 
       {/* Row 02: High-Speed Secondary Pill Strip with Interactive Emblems */}
       <div className="relative w-full overflow-hidden whitespace-nowrap mb-4 md:mb-6">
-        <div ref={row2Ref} className="inline-flex items-center gap-6 will-change-transform">
+        <div ref={row2Ref} className="inline-flex items-center gap-6 ">
           {[...marqueeRow2, ...marqueeRow2, ...marqueeRow2, ...marqueeRow2].map((text, i) => (
             <div
               key={i}
@@ -151,7 +151,7 @@ export const KineticEditorialMarquee: React.FC = () => {
 
       {/* Row 03: Editorial Poetic Italic Counter-Flow */}
       <div className="relative w-full overflow-hidden whitespace-nowrap">
-        <div ref={row3Ref} className="inline-flex items-center gap-10 will-change-transform">
+        <div ref={row3Ref} className="inline-flex items-center gap-10 ">
           {[...marqueeRow3, ...marqueeRow3, ...marqueeRow3, ...marqueeRow3].map((text, i) => (
             <div key={i} className="inline-flex items-center gap-10 group cursor-default">
               <span className="text-3xl sm:text-5xl md:text-6xl font-serif italic text-lilac/80 group-hover:text-porcelain tracking-wide transition-colors">

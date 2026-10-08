@@ -143,7 +143,7 @@ export const FinalScene: React.FC = () => {
           <h2
             ref={statementRef}
             className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-display font-light text-aubergine tracking-tight leading-[0.9]"
-            style={{ willChange: 'transform, opacity' }}
+            
           >
             SEE YOU<br />
             IN ANOTHER<br />
@@ -189,7 +189,7 @@ export const FinalScene: React.FC = () => {
           <div
             ref={driftingJewelRef}
             className="w-56 md:w-72 h-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl border border-champagne bg-pearl relative group"
-            style={{ willChange: 'transform' }}
+            
           >
             <img
               src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=90"

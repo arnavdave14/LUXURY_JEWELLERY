@@ -125,7 +125,7 @@ export const CustomCursor: React.FC = () => {
   return (
     <div
       ref={cursorRef}
-      className="fixed top-0 left-0 pointer-events-none z-[10000] opacity-0 will-change-transform flex items-center justify-center"
+      className="fixed top-0 left-0 pointer-events-none z-[10000] opacity-0 flex items-center justify-center"
       style={{ transform: 'translate3d(-100px, -100px, 0)' }}
     >
       {/* Precision Haute Diamond Gem Facet Reticle */}
